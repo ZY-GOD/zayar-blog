@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.social{
+    font-size: 2rem;
+}
+.ZAYAR{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.5s;
+}
+.ZAYAR:hover {
+    transform: scale(0.69);
+    transform: rotate(360deg);
+}
+.mom{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.1s;
+}
+.mom:hover{
+    transform: scale(0.9);
+}
+.dad{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.1s;
+}
+.dad:hover {
+    transform: scale(0.9);
+}
+.okkar-minn{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.1s;
+}
+.okkar-minn:hover {
+    transform: scale(0.9);
+}
+.me{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.1s;
+}
+.me:hover {
+    transform: scale(0.9);
+}
+.kyaw-san-minn{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.1s;
+}
+.kyaw-san-minn:hover {
+    transform: scale(0.9);
+}
+#bar{
+    display: none;
+    cursor: pointer;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-facebook-messenger{
+    color: blue;
+}
+.fa-instagram{
+    color: deeppink;
+}
+.fa-telegram{
+    color: skyblue;
+}
+.title2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+img[alt='IN'] {
+    border: 10px solid black;
+}
+img[alt='AE'] {
+    border: 10px solid black;
+}img[alt='GG'] {
+    border: 10px solid black;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.family-pict{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.family-pict .family{
+    margin: 10px;
+    padding: 20px;
+    background: goldenrod;
+}
+
+.p2{
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.our-name{
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.birthday{
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.family-member-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.family-member-pic .family-pic{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background: gold;
+    border: 10px solid goldenrod;
+}
+
+.family-pic img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.family-pic img.father-pic{
+    object-position: top;
+}
+
+.family-member-pic .family-pic .p1{
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+
+.family-member-pic .family-pic .icon{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.idols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.idols img{
+    margin: 1rem;
+}
+
+.idol{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.idol-link{
+    color: black;
+}
+
+iframe{
+    border: 10px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+.alps-vid{
+    text-align: center;
+}
+
+/* media query */
+@media (max-width: 745px) {
+    nav {
+        padding: 0 30px;
+        }
+    #bar{
+        display: block;
+    }
+    .social {
+        display: none;
+        }
+    
+    .family {
+        position: absolute;
+        background: gray;
+        top: 79px;
+        left: 0;
+        right: 0;
+        padding: 1px 170px;
+        transform: translateX(-150%);
+        transition: 0.5s;
+    }
+
+    .family>a {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .show{
+        display: block;
+        transform: translateX(0%);
+    }
+}

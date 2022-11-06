@@ -1,0 +1,22 @@
+.ZAYAR {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 5px solid blue;
+    transition: 0.5s;
+}
+
+.ZAYAR:hover {
+    transform: scale(0.8);
+    /* transform: rotate(360deg); */
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 5px solid red;
+    border-radius: 15px;
+    margin: 10px;
+}
